@@ -1,0 +1,17 @@
+biopandas==0.4.1
+biopython==1.85
+conda==23.3.1
+esm==3.2.0
+numpy==1.24.3
+pandas==1.5.3
+pytorch-metric-learning==2.8.1
+rdkit==2024.3.6
+scipy==1.15.2
+sympy==1.13.1
+torch==2.2.2+cu121
+torch-geometric==2.6.1
+torch-scatter==2.1.2
+torchaudio==2.2.2+cu121
+torchmetrics==1.7.1
+torchtext==0.17.2
+torchvision==0.17.2+cu121
