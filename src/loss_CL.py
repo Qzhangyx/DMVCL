@@ -70,9 +70,9 @@ class ContrastiveLoss(nn.Module):
     def forward(self, features, labels, dataset_class):
       
         if dataset_class == "gpsfun":
-            global_counts = torch.tensor([9870, 9720, 3301, 4187, 2590, 1047, 2180, 1496, 1279, 304]).to(features.device)  # class number
+            global_counts = gpsfun_class number
         elif dataset_class == "deepmtc":
-            global_counts = torch.tensor([294, 385, 2568, 2977, 194, 432, 601, 441, 674, 2711]).to(features.device)
+            global_counts = deepmtc_class_number
         
         global_weights = 1 / torch.sqrt(global_counts.float() + 1)  
         class_counts = labels.sum(0) 
