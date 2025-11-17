@@ -24,8 +24,6 @@ Install [ESM-2](Lin et al. 2023)and[ESMFold](https://github.com/facebookresearch
 ### dssp
 Add permission to execute for DSSP by "./src/mkdssp"
 
-### graph node feature
-
 ## Training
 python train.py
 
