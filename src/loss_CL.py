@@ -70,7 +70,7 @@ class ContrastiveLoss(nn.Module):
     def forward(self, features, labels, dataset_class):
       
         if dataset_class == "gpsfun":
-            global_counts = gpsfun_class number
+            global_counts = gpsfun_class_number
         elif dataset_class == "deepmtc":
             global_counts = deepmtc_class_number
         
