@@ -34,7 +34,7 @@ Bai’s dataset_ckp: "./src/ckp/dataset1_ckp.pt"
 
 ## demo running
 
-For now, you can use the demo_dataset to test our algorithm. The demo_dataset currently includes 10 proteins, which were randomly selected.
+For now, you can use the demo_dataset to test our algorithm. The demo_dataset currently includes 7 proteins, which were randomly selected.
 
 you can run demo.ipynb or demo.py to test our code
 
