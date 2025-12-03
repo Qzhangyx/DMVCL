@@ -27,11 +27,6 @@ Add permission to execute for DSSP by "./src/mkdssp"
 ## Training
 python train.py
 
-## checkpoint
-
-Thumuluri’s dataset_ckp: "./src/ckp/dataset0_ckp.pt"   
-Bai’s dataset_ckp: "./src/ckp/dataset1_ckp.pt"
-
 ## demo running
 
 For now, you can use the demo_dataset to test our algorithm. The demo_dataset currently includes 7 proteins, which were randomly selected.
